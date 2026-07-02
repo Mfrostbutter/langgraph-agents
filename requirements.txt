@@ -1,0 +1,6 @@
+# Pinned to the versions these agents were built and tested against.
+langgraph==1.2.4
+langchain-core==1.4.6
+langchain-anthropic==1.4.5
+pydantic>=2,<3
+python-dotenv>=1.0

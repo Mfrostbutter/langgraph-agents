@@ -1,0 +1,9 @@
+[
+  {"title": "LangGraph 1.0 ships stable interrupt/resume", "url": "https://example.com/langgraph-1", "source": "changelog", "summary": "Human-in-the-loop is now a first-class primitive with checkpointer-backed resume.", "kind": "news", "score": 0},
+  {"title": "openai/openai-agents-python", "url": "https://github.com/example/agents", "source": "github", "summary": "A lightweight agents SDK; 12k stars this month.", "kind": "repo", "score": 12000},
+  {"title": "A field guide to LLM-as-judge evals", "url": "https://example.com/llm-judge", "source": "blog", "summary": "Practical rules for scoring non-deterministic systems without a model grading its own work.", "kind": "reading", "score": 0},
+  {"title": "Show HN: self-hosted RAG with citations", "url": "https://news.ycombinator.com/item?id=1", "source": "hn", "summary": "A weekend project that returns grounded answers with source links.", "kind": "hn", "score": 340},
+  {"title": "Anthropic ships web search tool for the Messages API", "url": "https://example.com/web-search", "source": "changelog", "summary": "Models can now cite live web sources inline.", "kind": "news", "score": 0},
+  {"title": "vllm-project/vllm", "url": "https://github.com/example/vllm", "source": "github", "summary": "High-throughput LLM serving; broad model support.", "kind": "repo", "score": 30000},
+  {"title": "Why your agent needs a cross-vendor reviewer", "url": "https://example.com/cross-vendor", "source": "blog", "summary": "A second model from a different family catches failures the first is blind to.", "kind": "reading", "score": 0}
+]
