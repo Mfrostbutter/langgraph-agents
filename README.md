@@ -55,6 +55,10 @@ Every agent defaults to **safe, local output**: drafts are written to `out/` and
 is published or emailed until you wire a real `publish`/`stage` effect. See each agent's
 README for its effects table and what to swap.
 
+Setting up or adapting these agents with an AI assistant? Give it
+[AI-SETUP-PROMPT.md](AI-SETUP-PROMPT.md); it is a copy-paste prompt covering setup,
+the runnable commands, and how to swap effects without breaking the architecture.
+
 ## Models
 
 Two models per agent, built by [`common/models.py`](common/models.py) and overridable via
@@ -80,6 +84,12 @@ python agents/geo_auditor/tests/test_geo_auditor.py
 
 Built and tested against `langgraph==1.2.4`, `langchain-core==1.4.6`,
 `langchain-anthropic==1.4.5` (see [`requirements.txt`](requirements.txt)).
+
+## Provenance
+
+These agents are one-way public forks of internal production agents. Edits here do not
+flow back; the internal fleet is canonical, and this repo evolves independently as a
+learn-and-adapt edition.
 
 ## License
 
